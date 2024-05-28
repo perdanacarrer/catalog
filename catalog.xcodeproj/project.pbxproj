@@ -14,6 +14,8 @@
 		F50AD5682C05742F0033DEA2 /* catalogTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50AD5672C05742F0033DEA2 /* catalogTests.swift */; };
 		F50AD5722C05742F0033DEA2 /* catalogUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50AD5712C05742F0033DEA2 /* catalogUITests.swift */; };
 		F50AD5742C05742F0033DEA2 /* catalogUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50AD5732C05742F0033DEA2 /* catalogUITestsLaunchTests.swift */; };
+		F50AD5812C0574580033DEA2 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50AD5802C0574580033DEA2 /* Catalog.swift */; };
+		F50AD5832C05748B0033DEA2 /* CatalogStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F50AD5822C05748B0033DEA2 /* CatalogStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +46,8 @@
 		F50AD56D2C05742F0033DEA2 /* catalogUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = catalogUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F50AD5712C05742F0033DEA2 /* catalogUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catalogUITests.swift; sourceTree = "<group>"; };
 		F50AD5732C05742F0033DEA2 /* catalogUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = catalogUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F50AD5802C0574580033DEA2 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
+		F50AD5822C05748B0033DEA2 /* CatalogStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,8 @@
 			children = (
 				F50AD5562C05742D0033DEA2 /* catalogApp.swift */,
 				F50AD5582C05742D0033DEA2 /* ContentView.swift */,
+				F50AD5802C0574580033DEA2 /* Catalog.swift */,
+				F50AD5822C05748B0033DEA2 /* CatalogStore.swift */,
 				F50AD55A2C05742F0033DEA2 /* Assets.xcassets */,
 				F50AD55C2C05742F0033DEA2 /* Preview Content */,
 			);
@@ -257,6 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F50AD5812C0574580033DEA2 /* Catalog.swift in Sources */,
+				F50AD5832C05748B0033DEA2 /* CatalogStore.swift in Sources */,
 				F50AD5592C05742D0033DEA2 /* ContentView.swift in Sources */,
 				F50AD5572C05742D0033DEA2 /* catalogApp.swift in Sources */,
 			);
